@@ -1,0 +1,69 @@
+@font-face {
+	font-family:"Helvetica Neue Thin";
+	src:url('HelveticaNeue-Thin.otf')
+}
+
+@font-face {
+	font-family:"Brev Script Personal Use Only";
+	src:url('BrevScript_PersonalUse.ttf');
+}
+
+body {
+	font-family: 'Helvetica';
+	background:#000;
+	background-size:100%;
+	color:#fff;
+	margin:0;
+	padding:0;
+}
+
+h1, h2, h3, p {
+  margin:0;
+}
+
+em {
+	font-weight:bolder;
+	font-style: normal;
+	color:#9F0;
+}
+
+a {
+  color:#C00;
+  text-decoration:none;
+  font-style:normal;
+}
+
+img {
+  width:100%;
+}
+
+div {
+  cursor:pointer;
+  cursor:hand;
+  position:absolute;
+  top:0px;
+  left:0px;
+  padding:75px;
+  line-height:97%;
+}
+
+div.center {
+  text-align:center;
+}
+
+div.imageText {
+  text-shadow:0px 0px 5px rgba(0,0,0,0.3);
+}
+
+.emelie {
+	font-family: "Brev Script Personal Use Only";
+}
+
+.neg {
+	color:#000;
+	text-shadow:0px 0px 10px rgba(255,255,255,1);
+}
+
+.nowrap {
+	white-space:nowrap;
+}
