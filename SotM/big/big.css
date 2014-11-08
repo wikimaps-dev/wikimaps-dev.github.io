@@ -9,10 +9,10 @@
 }
 
 body {
-	font-family: 'Helvetica';
-	background:#000;
+	font-family: 'Helvetica Neue Thin';
+	background:#FFF;
 	background-size:100%;
-	color:#fff;
+	color:#000;
 	margin:0;
 	padding:0;
 }
@@ -24,12 +24,11 @@ h1, h2, h3, p {
 em {
 	font-weight:bolder;
 	font-style: normal;
-	color:#9F0;
 }
 
 a {
-  color:#C00;
-  text-decoration:none;
+	color:inherit;
+  text-decoration:underline;
   font-style:normal;
 }
 
@@ -52,7 +51,9 @@ div.center {
 }
 
 div.imageText {
+	font-family:Helvetica;
   text-shadow:0px 0px 5px rgba(0,0,0,0.3);
+  color:#FFF;
 }
 
 .emelie {

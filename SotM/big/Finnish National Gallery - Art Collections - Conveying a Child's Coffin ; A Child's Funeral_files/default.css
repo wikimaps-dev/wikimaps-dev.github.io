@@ -1,0 +1,1550 @@
+.box-shadow-none {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+html {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #444444;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: #444444;
+}
+a img {
+  border: none;
+}
+nav {
+  text-transform: uppercase;
+}
+nav a {
+  margin: 0 5px;
+}
+nav#langMenu {
+  padding-top: 10px;
+}
+@media screen and (max-width: 799px) {
+  nav#langMenu {
+    font-size: 10px;
+    clear: left;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    float: left;
+  }
+  nav#langMenu a {
+    margin: 0 3px;
+  }
+}
+nav#langMenu,
+nav#langMenu a,
+nav#footerSiteLinks {
+  color: #666666;
+  font-size: 10px;
+}
+nav#siteMenu {
+  letter-spacing: -0.3px;
+  font-size: 20px;
+}
+@media screen and (max-width: 1100px) and (min-width: 1040px) {
+  nav#siteMenu {
+    font-size: 18px;
+  }
+  nav#siteMenu a {
+    margin: 0 3px;
+  }
+}
+@media screen and (max-width: 1039px) and (min-width: 980px) {
+  nav#siteMenu {
+    font-size: 16px;
+  }
+  nav#siteMenu a {
+    margin: 0 3px;
+  }
+}
+@media screen and (max-width: 979px) and (min-width: 930px) {
+  nav#siteMenu {
+    font-size: 14px;
+  }
+  nav#siteMenu a {
+    margin: 0 3px;
+  }
+}
+@media screen and (max-width: 929px) and (min-width: 800px) {
+  nav#siteMenu {
+    font-size: 14px;
+  }
+  nav#siteMenu a {
+    margin: 0 3px;
+  }
+}
+@media screen and (max-width: 799px) {
+  nav#siteMenu {
+    font-size: 14px;
+    clear: left;
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    float: left;
+  }
+  nav#siteMenu a {
+    margin: 0 3px;
+  }
+}
+#siteLogo {
+  float: left;
+  margin-top: 7px;
+  border: none;
+}
+@media screen and (max-width: 930px) {
+  #siteLogo {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 900px) {
+  #siteLogo {
+    width: 370px;
+  }
+}
+@media screen and (max-width: 870px) {
+  #siteLogo {
+    width: 340px;
+  }
+}
+@media screen and (max-width: 840px) {
+  #siteLogo {
+    width: 310px;
+  }
+}
+header {
+  min-height: 80px;
+  margin: 20px 10px 0 20px;
+  clear: both;
+}
+header h2 {
+  display: none;
+}
+header nav,
+header form {
+  text-align: right;
+  margin: 10px 0;
+}
+header #searchForm input {
+  height: 23px;
+  line-height: 23px;
+  width: 74px;
+  border: none;
+  outline: none;
+  border-radius: 23px;
+  background-color: #e9e9e9;
+  padding: 0px 20px 0px 8px;
+  background-image: url('../images/icon_search.png');
+  background-repeat: no-repeat;
+  background-position: 84px center;
+}
+header #searchForm .submit {
+  display: none;
+}
+@media screen and (max-width: 500px) {
+  header #searchForm {
+    display: none;
+  }
+}
+footer {
+  text-align: center;
+  clear: both;
+  padding-top: 30px;
+}
+footer nav,
+footer section {
+  margin: 30px 0;
+}
+footer #museumLinks {
+  margin-top: 0px;
+}
+footer #siteCopyright,
+footer #siteCopyright a {
+  color: #666666;
+  font-size: 10px;
+}
+footer #socialLinks {
+  margin-left: auto;
+  margin-right: auto;
+}
+footer #socialLinks .addthis_toolbox {
+  display: inline-block;
+  width: 150px;
+}
+footer #socialLinks a {
+  margin: 0 0;
+}
+.contentMargin {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+article {
+  clear: both;
+  position: relative;
+  margin: 30px 0 0 0;
+}
+article > section h2 {
+  font-size: 30px;
+  font-weight: normal;
+  letter-spacing: -1px;
+}
+article > section h3 {
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  letter-spacing: -0.7px;
+}
+article > section#artworksContent h2,
+article > section#artistsContent h2 {
+  text-transform: uppercase;
+}
+article > section p,
+article > section h1,
+article > section h2,
+article > section h3,
+article > section h4,
+article > section h5,
+article > section input,
+article > section select,
+article > section .contentMargin {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+article > section select,
+article > section input,
+article > section textarea {
+  padding: 4px;
+}
+article > section .mainText {
+  line-height: 1.5em;
+}
+article > section .moreInfoTexts {
+  line-height: 1.5em;
+}
+article > section .linkCloud,
+article > section .alphaSelect,
+article > section .classesList,
+article > section .linkList,
+article > section .sketchbooksList {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+article > section .classesList {
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+article > section .alphaSelect {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+article > section .linkList {
+  list-style: none;
+  line-height: 1.5em;
+}
+article > section .linkList a {
+  display: list-item;
+}
+article > section .linkCloud {
+  line-height: 2em;
+}
+article > section .linkCloud .count {
+  font-size: 8px;
+}
+article > section .linkCloud .count:before {
+  content: "(";
+}
+article > section .linkCloud .count:after {
+  content: ")";
+}
+article > section .artistList .list {
+  margin-left: 20px;
+  margin-right: 20px;
+  list-style: none;
+  clear: both;
+  font-size: 12px;
+  column-count: auto;
+  column-width: 350px;
+  -moz-column-width: 350px;
+  -webkit-column-width: 350px;
+}
+article > section .artistList .list a {
+  display: list-item;
+}
+article > section .artistList .list a.died:before {
+  content: '\002020';
+}
+article > section .artworkList {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 15px;
+  list-style: none;
+  clear: both;
+  font-size: 12px;
+  column-count: auto;
+  column-width: 350px;
+  -moz-column-width: 350px;
+  -webkit-column-width: 350px;
+}
+article > section .artworkList .listItem {
+  display: list-item;
+}
+article > section .artworkList .listItem .author {
+  display: inline;
+}
+article > section .artworkList .listItem .artwork {
+  display: inline;
+  font-style: italic;
+}
+article > section .sketchbooksList {
+  font-size: 14px;
+}
+article > section .sketchbooksList h4 {
+  margin: 10px 0;
+  font-weight: bold;
+}
+article > section .sketchbooksList a {
+  display: inline-block;
+  margin: 2px 5px;
+}
+article > section .usages .linkList a {
+  margin-bottom: 15px;
+}
+article > section.carousel {
+  margin: 10px 0 ;
+}
+article > section#frontIngress p {
+  margin-top: 50px;
+  text-align: center;
+}
+article .pageTitle {
+  margin: 10px 0;
+}
+article .pageTitle .authorLink {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+article .pageTitle h2 {
+  font-size: 30px;
+  line-height: 32px;
+  margin: 0 0;
+  text-transform: none;
+}
+article .pageTitle .time {
+  font-size: 14px;
+  margin-top: 5px;
+}
+article > section.contentSection .museumBanner p,
+article > section.contentSection .usageBanner p,
+article > section.contentSection .collectionsBanner p,
+article > section.contentSection .artistBanner p {
+  font-size: 18px;
+}
+article > section.contentSection .usageBanner p,
+article > section.contentSection .collectionBanner p,
+article > section.contentSection .artistBanner p {
+  font-size: 14px;
+  line-height: 1.5em;
+}
+article > section.contentSection .contentIngress {
+  font-size: 18px;
+}
+article > section.contentSection .minorInfo {
+  font-size: 14px;
+}
+article > section.contentSection > div#artistList,
+article > section.contentSection > div#artistLifetimes,
+article > section.contentSection > div#artistProfessions {
+  float: left;
+}
+article > section.contentSection > div#artistList {
+  width: 50%;
+}
+article > section.contentSection > div#artistList.fullColumn {
+  width: 100%;
+}
+article > section.contentSection > div#artistLifetimes,
+article > section.contentSection > div#artistProfessions {
+  width: 25%;
+  font-size: 14px;
+}
+article > section.contentSection > div .professionsList {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+article > section.contentSection > div .professionsList,
+article > section.contentSection > div .classesList,
+article > section.contentSection > div .collectionList {
+  list-style: none;
+}
+article > section.contentSection > div .professionsList a,
+article > section.contentSection > div .classesList a,
+article > section.contentSection > div .collectionList a {
+  display: list-item;
+}
+@media screen and (min-width: 800px) {
+  article > section.contentSection#artworksContent > div {
+    width: 33%;
+    float: left;
+  }
+}
+@media screen and (max-width: 799px) and (min-width: 600px) {
+  article > section.contentSection#artworksContent > div {
+    width: 49%;
+    float: left;
+    clear: left;
+  }
+  article > section.contentSection#artworksContent > div#artworksCol3 {
+    float: none;
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 600px) {
+  article > section.contentSection#artworksContent > div {
+    float: none;
+    width: 100%;
+  }
+}
+article > section.contentSection#artworkContent .artworkImages,
+article > section.contentSection#sketchbookContent .artworkImages {
+  padding-bottom: 10px;
+  margin: 0 15px;
+  position: relative;
+}
+@media screen and (min-width: 901px) {
+  article > section.contentSection#artworkContent .artworkImages,
+  article > section.contentSection#sketchbookContent .artworkImages {
+    float: left;
+    width: 60%;
+    vertical-align: top;
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 900px) {
+  article > section.contentSection#artworkContent .artworkImages,
+  article > section.contentSection#sketchbookContent .artworkImages {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: block;
+  }
+}
+article > section.contentSection#artworkContent .artworkImages .bigImage img,
+article > section.contentSection#sketchbookContent .artworkImages .bigImage img {
+  cursor: pointer;
+  width: 100%;
+}
+article > section.contentSection#artworkContent .artworkImages .imageNotes,
+article > section.contentSection#sketchbookContent .artworkImages .imageNotes {
+  text-align: right;
+  float: right;
+  color: #666666;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+article > section.contentSection#artworkContent .artworkImages .imageNotes div,
+article > section.contentSection#sketchbookContent .artworkImages .imageNotes div {
+  display: block;
+}
+@media screen and (min-width: 901px) {
+  article > section.contentSection#artworkContent .audioGuide,
+  article > section.contentSection#sketchbookContent .audioGuide,
+  article > section.contentSection#artworkContent .artworkInfo,
+  article > section.contentSection#sketchbookContent .artworkInfo {
+    vertical-align: top;
+    width: 31.2%;
+    display: inline-block;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 900px) {
+  article > section.contentSection#artworkContent .audioGuide,
+  article > section.contentSection#sketchbookContent .audioGuide,
+  article > section.contentSection#artworkContent .artworkInfo,
+  article > section.contentSection#sketchbookContent .artworkInfo {
+    vertical-align: top;
+    width: 100%;
+    display: block;
+    font-size: 12px;
+  }
+}
+article > section.contentSection#artworkContent .pageTitle,
+article > section.contentSection#sketchbookContent .pageTitle,
+article > section.contentSection#artworkContent .details > div,
+article > section.contentSection#sketchbookContent .details > div {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+article > section.contentSection#artworkContent div.shortLink > a,
+article > section.contentSection#sketchbookContent div.shortLink > a {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: inline-block;
+}
+article > section.contentSection#artworkContent .details,
+article > section.contentSection#sketchbookContent .details {
+  line-height: 1.5em;
+  margin-top: 20px;
+}
+article > section.contentSection#artworkContent .keeperLogo,
+article > section.contentSection#sketchbookContent .keeperLogo {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+article > section.contentSection#sketchbookContent .sketchbookPages {
+  clear: both;
+}
+article > section.contentSection#sketchbookContent .sketchbookPages .galleryTitle,
+article > section.contentSection#sketchbookContent .sketchbookPages .viewModeSelector {
+  margin-top: 20px;
+}
+article > section.contentSection#artworkContent.noimage .pageTitle,
+article > section.contentSection#sketchbookContent.noimage .pageTitle {
+  display: block;
+}
+article > section.contentSection#artworkContent.noimage .artworkImages,
+article > section.contentSection#sketchbookContent.noimage .artworkImages {
+  display: none;
+}
+@media screen and (min-width: 901px) {
+  article > section.contentSection#artworkContent.noimage .artworkInfo,
+  article > section.contentSection#sketchbookContent.noimage .artworkInfo {
+    width: 100%;
+    display: block;
+    vertical-align: top;
+    font-size: 12px;
+  }
+}
+article > section#routesContent .route {
+  padding-top: 20px;
+  clear: both;
+}
+article > section#routesContent .route .routeImage {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: block;
+  float: left;
+}
+article > section#routesContent .route .routeText h3 {
+  font-size: 20px;
+}
+article > section#routesContent .route .routeText p {
+  font-size: 12px;
+  line-height: 1.5em;
+}
+article > section#collectionsContent h2 {
+  text-transform: uppercase;
+}
+article > section#collectionsContent .collectionsBanner {
+  padding: 1px 0 20px 0;
+  background-color: #e5e5e5;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+article > section#collectionsContent .otherCollections {
+  clear: both;
+  margin-top: 40px;
+}
+article > section#collectionsContent .otherCollections .collectionsList {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 14px;
+  line-height: 24px;
+}
+article > section#collectionsContent .museumCollections {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
+  position: relative;
+}
+article > section#collectionsContent .museumCollections h3 {
+  margin: 0 0 20px 0;
+}
+article > section#collectionsContent .museumCollections .museum {
+  position: relative;
+  width: 33%;
+  float: left;
+}
+article > section#collectionsContent .museumCollections .museum .collection {
+  position: relative;
+  width: 100%;
+  clear: both;
+  margin-bottom: 10px;
+}
+article > section#collectionsContent .museumCollections .museum .collection .image {
+  position: relative;
+  width: 50%;
+}
+article > section#collectionsContent .museumCollections .museum .collection .image img {
+  width: 100%;
+}
+article > section#collectionsContent .museumCollections .museum .collection .info {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+}
+article > section#collectionsContent .museumCollections .museum .collection .info h4 {
+  font-size: 14px;
+  font-weight: normal;
+  position: absolute;
+  bottom: 0;
+  margin: 0 10px 0 10px;
+}
+@media screen and (min-width: 601px) and (max-width: 850px) {
+  article > section#collectionsContent .museumCollections .museum {
+    width: 49%;
+  }
+  article > section#collectionsContent .museumCollections .museumKiasma {
+    clear: left;
+  }
+  article > section#collectionsContent .museumCollections .museumSinebrychoff {
+    float: none;
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 600px) {
+  article > section#collectionsContent .museumCollections .museum {
+    width: 100%;
+    float: none;
+  }
+  article > section#collectionsContent .museumCollections .museum .collection .image {
+    width: 30%;
+  }
+  article > section#collectionsContent .museumCollections .museum .collection .info {
+    width: 70%;
+  }
+}
+article > section#keywordContent .viewModeSelector,
+article > section#timeContent .viewModeSelector,
+article > section#artistContent .viewModeSelector,
+article > section#artworkClassContent .viewModeSelector,
+article > section#techniqueContent .viewModeSelector,
+article > #usageContent .viewModeSelector,
+article > #museumContent .viewModeSelector,
+article > #exhibitionContent .viewModeSelector,
+article > #collectionContent .viewModeSelector,
+article > section#routeContent .viewModeSelector,
+article > #sketchbookContent .viewModeSelector,
+article > #searchContent .viewModeSelector,
+article > #professionContent .viewModeSelector,
+article > #placeContent .viewModeSelector {
+  margin-left: 20px;
+  margin-right: 20px;
+  float: right;
+}
+article > section#keywordContent .paging,
+article > section#timeContent .paging,
+article > section#artistContent .paging,
+article > section#artworkClassContent .paging,
+article > section#techniqueContent .paging,
+article > #usageContent .paging,
+article > #museumContent .paging,
+article > #exhibitionContent .paging,
+article > #collectionContent .paging,
+article > section#routeContent .paging,
+article > #sketchbookContent .paging,
+article > #searchContent .paging,
+article > #professionContent .paging,
+article > #placeContent .paging {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
+  font-size: 14px;
+  text-align: center;
+}
+article > section#keywordContent .paging .count,
+article > section#timeContent .paging .count,
+article > section#artistContent .paging .count,
+article > section#artworkClassContent .paging .count,
+article > section#techniqueContent .paging .count,
+article > #usageContent .paging .count,
+article > #museumContent .paging .count,
+article > #exhibitionContent .paging .count,
+article > #collectionContent .paging .count,
+article > section#routeContent .paging .count,
+article > #sketchbookContent .paging .count,
+article > #searchContent .paging .count,
+article > #professionContent .paging .count,
+article > #placeContent .paging .count {
+  display: inline;
+}
+article > section#keywordContent .paging p,
+article > section#timeContent .paging p,
+article > section#artistContent .paging p,
+article > section#artworkClassContent .paging p,
+article > section#techniqueContent .paging p,
+article > #usageContent .paging p,
+article > #museumContent .paging p,
+article > #exhibitionContent .paging p,
+article > #collectionContent .paging p,
+article > section#routeContent .paging p,
+article > #sketchbookContent .paging p,
+article > #searchContent .paging p,
+article > #professionContent .paging p,
+article > #placeContent .paging p {
+  display: inline;
+}
+article > section#keywordContent .paging a,
+article > section#timeContent .paging a,
+article > section#artistContent .paging a,
+article > section#artworkClassContent .paging a,
+article > section#techniqueContent .paging a,
+article > #usageContent .paging a,
+article > #museumContent .paging a,
+article > #exhibitionContent .paging a,
+article > #collectionContent .paging a,
+article > section#routeContent .paging a,
+article > #sketchbookContent .paging a,
+article > #searchContent .paging a,
+article > #professionContent .paging a,
+article > #placeContent .paging a {
+  display: inline-block;
+  margin: 10px;
+}
+article > section#keywordContent .paging b,
+article > section#timeContent .paging b,
+article > section#artistContent .paging b,
+article > section#artworkClassContent .paging b,
+article > section#techniqueContent .paging b,
+article > #usageContent .paging b,
+article > #museumContent .paging b,
+article > #exhibitionContent .paging b,
+article > #collectionContent .paging b,
+article > section#routeContent .paging b,
+article > #sketchbookContent .paging b,
+article > #searchContent .paging b,
+article > #professionContent .paging b,
+article > #placeContent .paging b {
+  display: inline-block;
+  margin: 10px;
+}
+article > section#keywordContent .galleryTitle,
+article > section#timeContent .galleryTitle,
+article > section#artistContent .galleryTitle,
+article > section#artworkClassContent .galleryTitle,
+article > section#techniqueContent .galleryTitle,
+article > #usageContent .galleryTitle,
+article > #museumContent .galleryTitle,
+article > #exhibitionContent .galleryTitle,
+article > #collectionContent .galleryTitle,
+article > section#routeContent .galleryTitle,
+article > #sketchbookContent .galleryTitle,
+article > #searchContent .galleryTitle,
+article > #professionContent .galleryTitle,
+article > #placeContent .galleryTitle {
+  float: left;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+article > section#keywordContent .topicTitle,
+article > section#timeContent .topicTitle,
+article > section#artworkClassContent .topicTitle,
+article > section#decadeContent .topicTitle,
+article > section#centuryContent .topicTitle,
+article > section#techniqueContent .topicTitle,
+article > #usageContent .topicTitle,
+article > #museumContent .topicTitle,
+article > #exhibitionContent .topicTitle,
+article > #collectionContent .topicTitle,
+article > section#routeContent .topicTitle,
+article > #professionContent .topicTitle,
+article > #placeContent .topicTitle {
+  margin-bottom: 0;
+}
+article > section#keywordContent .topicType,
+article > section#timeContent .topicType,
+article > section#artworkClassContent .topicType,
+article > section#decadeContent .topicType,
+article > section#centuryContent .topicType,
+article > section#techniqueContent .topicType,
+article > #usageContent .topicType,
+article > #museumContent .topicType,
+article > #exhibitionContent .topicType,
+article > #collectionContent .topicType,
+article > section#routeContent .topicType,
+article > #professionContent .topicType,
+article > #placeContent .topicType {
+  font-size: 14px;
+  margin-top: 0;
+  font-weight: normal;
+}
+article > section#artistContent .artistBanner {
+  background-color: #e5e5e5;
+  width: 100%;
+  min-height: 285px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+article > section#artistContent .artistBanner .artistImage {
+  display: inline-block;
+  margin: 20px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+article > section#artistContent .artistBanner.noimage {
+  min-height: 0px;
+}
+article > section#artistContent .artistBanner.noimage .artistImage {
+  display: none;
+}
+article > section#artistContent .artistBanner .info {
+  display: inline-block;
+  margin: 20px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+article > section#artistContent .artistBanner .info > .birth > div,
+article > section#artistContent .artistBanner .info > .death > div {
+  display: inline;
+}
+article > section#artistContent .artistBanner .info > .kirjavaLink {
+  font-size: 10px;
+  margin-top: 5px;
+}
+article > section#artistContent .artistBanner .info > h2 {
+  margin: 5px 0;
+}
+article > section#routeContent .routeText {
+  line-height: 1.5em;
+}
+article > section#routeContent .routeItem {
+  display: block;
+  clear: both;
+  font-size: 14px;
+  margin-top: 20px;
+  /* These screen widths are also in the javascript that adjusts image margins */
+}
+article > section#routeContent .routeItem h3 {
+  padding-top: 20px;
+}
+article > section#routeContent .routeItem .cols1 .col {
+  width: 100%;
+}
+article > section#routeContent .routeItem .cols2 .col {
+  width: 49%;
+  float: left;
+}
+article > section#routeContent .routeItem .cols3 .col {
+  width: 33%;
+  float: left;
+}
+@media screen and (max-width: 1000px) {
+  article > section#routeContent .routeItem .cols3 .col1,
+  article > section#routeContent .routeItem .cols3 .col2 {
+    width: 49%;
+  }
+  article > section#routeContent .routeItem .cols3 .col3 {
+    float: none;
+    width: 100%;
+    clear: both;
+  }
+}
+@media screen and (max-width: 666px) {
+  article > section#routeContent .routeItem .cols1 .col,
+  article > section#routeContent .routeItem .cols2 .col,
+  article > section#routeContent .routeItem .cols3 .col {
+    width: 100%;
+    float: none;
+    clear: both;
+  }
+}
+article > section#routeContent .routeItem .imageContainer {
+  margin-bottom: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+article > section#routeContent .routeItem .imageContainer a.image {
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+article > section#routeContent .routeItem .imageContainer a.image img {
+  max-width: 100%;
+}
+article > section#routeContent .routeItem .imageContainer h5 {
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+article > section#routeContent .routeItem .imageContainer h5.title {
+  font-style: italic;
+}
+article > section#routeContent .routeItem .col .text {
+  line-height: 1.5em;
+  padding-bottom: 30px;
+}
+article > section#museumContent .museumBanner,
+article > section#exhibitionContent .museumBanner,
+article > section#usageContent .museumBanner,
+article > section#collectionContent .museumBanner,
+article > section#museumContent .usageBanner,
+article > section#exhibitionContent .usageBanner,
+article > section#usageContent .usageBanner,
+article > section#collectionContent .usageBanner,
+article > section#museumContent .collectionBanner,
+article > section#exhibitionContent .collectionBanner,
+article > section#usageContent .collectionBanner,
+article > section#collectionContent .collectionBanner {
+  background-color: #e5e5e5;
+  padding: 1px 0 30px 0;
+  display: block;
+}
+article > section#museumContent .usageBanner,
+article > section#exhibitionContent .usageBanner,
+article > section#usageContent .usageBanner,
+article > section#collectionContent .usageBanner {
+  padding: 1px 0 1px 0;
+}
+article > section#museumContent .collectionBanner,
+article > section#exhibitionContent .collectionBanner,
+article > section#usageContent .collectionBanner,
+article > section#collectionContent .collectionBanner {
+  padding: 1px 0 30px 0;
+}
+article > section#museumContent .museumLink,
+article > section#exhibitionContent .museumLink,
+article > section#usageContent .museumLink,
+article > section#collectionContent .museumLink {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 14px;
+}
+article > section#museumContent .showAll,
+article > section#exhibitionContent .showAll,
+article > section#usageContent .showAll,
+article > section#collectionContent .showAll {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  text-align: left;
+  font-size: 14px;
+}
+article > section#museumContent .galleryTitle,
+article > section#exhibitionContent .galleryTitle,
+article > section#usageContent .galleryTitle,
+article > section#collectionContent .galleryTitle,
+article > section#museumContent .viewModeSelector,
+article > section#exhibitionContent .viewModeSelector,
+article > section#usageContent .viewModeSelector,
+article > section#collectionContent .viewModeSelector {
+  margin-top: 20px;
+}
+article > section#searchContent .galleryTitle,
+article > section#searchContent .viewModeSelector {
+  margin-top: 20px;
+}
+@media screen and (min-width: 640px) {
+  article > section#collectionContent .twocols div {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+  }
+}
+@media screen and (max-width: 639px) {
+  article > section#collectionContent .twocols div {
+    width: 100%;
+    display: block;
+    vertical-align: top;
+  }
+}
+article > section#collectionContent .twocols:after {
+  clear: both;
+}
+article > section#noticesContent .notice {
+  margin-bottom: 40px;
+}
+article > section#noticesContent .notice .date {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+article > section#feedbackContent form {
+  margin-top: 30px;
+}
+article > section#feedbackContent form .field {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  clear: both;
+}
+article > section#feedbackContent form .field label {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: block;
+  width: 90%;
+  vertical-align: top;
+  font-size: 12px;
+}
+article > section#feedbackContent form .field input,
+article > section#feedbackContent form .field textarea,
+article > section#feedbackContent form .field select {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin: 0;
+  width: 90%;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 5px;
+}
+article > section#feedbackContent form .field textarea {
+  height: 100px;
+}
+article > section#feedbackContent form .field #submitbutton {
+  width: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+article > section#feedbackContent form .field #recaptcha_widget_div {
+  margin-left: 20px;
+  margin-right: 20px;
+  float: left;
+  padding-bottom: 10px;
+}
+article > section#feedbackContent form .field .captchaError {
+  padding-top: 20px;
+}
+article .viewModeSelector {
+  text-align: right;
+}
+article .viewModeSelector > a > span {
+  display: none;
+}
+article .viewModeSelector .listSelect,
+article .viewModeSelector .gallerySelect,
+article .viewModeSelector .singleSelect {
+  width: 32px;
+  height: 21px;
+  margin: 0 5px;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+article .viewModeSelector .artistSort,
+article .viewModeSelector .artworkSort,
+article .viewModeSelector .timeSort {
+  width: 40px;
+  height: 26px;
+  margin: 0 5px;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+article .viewModeSelector .listSelect {
+  background-image: url('../images/icon_listmode_names_off.png');
+}
+article .viewModeSelector .listSelect.selected,
+article .viewModeSelector .listSelect:hover {
+  background-image: url('../images/icon_listmode_names_on.png');
+}
+article .viewModeSelector .gallerySelect {
+  background-image: url('../images/icon_listmode_images_off.png');
+}
+article .viewModeSelector .gallerySelect.selected,
+article .viewModeSelector .gallerySelect:hover {
+  background-image: url('../images/icon_listmode_images_on.png');
+}
+article .viewModeSelector .singleSelect {
+  background-image: url('../images/icon_listmode_zoom_off.png');
+}
+article .viewModeSelector .singleSelect.selected,
+article .viewModeSelector .singleSelect:hover {
+  background-image: url('../images/icon_listmode_zoom_on.png');
+}
+article .viewModeSelector .timeSort {
+  background-image: url('../images/icon_sort_date.png');
+}
+article .viewModeSelector .timeSort.selected,
+article .viewModeSelector .timeSort:hover {
+  background-image: url('../images/icon_sort_date_on.png');
+}
+article .viewModeSelector .artistSort {
+  background-image: url('../images/icon_sort_artist.png');
+}
+article .viewModeSelector .artistSort.selected,
+article .viewModeSelector .artistSort:hover {
+  background-image: url('../images/icon_sort_artist_on.png');
+}
+article .viewModeSelector .artworkSort {
+  background-image: url('../images/icon_sort_artwork.png');
+  padding-right: 20px;
+  margin-right: 20px;
+  border-right: 1px solid #AAA;
+}
+article .viewModeSelector .artworkSort.selected,
+article .viewModeSelector .artworkSort:hover {
+  background-image: url('../images/icon_sort_artwork_on.png');
+}
+article .gallery {
+  margin-left: 20px;
+  margin-right: 20px;
+  clear: both;
+}
+article .gallery .galleryCell {
+  margin: 20px;
+  width: 245px;
+  height: 275px;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+article .gallery .galleryCell a {
+  color: #666666;
+  font-size: 12px;
+}
+article .gallery .galleryCell a.image {
+  display: block;
+  position: absolute;
+  bottom: 30px;
+  left: 0px;
+  right: 0px;
+  font-size: 0;
+}
+article .gallery .galleryCell a.image img {
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+  margin-top: auto;
+  margin-bottom: 0;
+}
+article .gallery .galleryCell a.image img.lazyload {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+article .gallery .galleryCell a.image.museumImage {
+  height: 245px;
+  line-height: 245px;
+}
+article .gallery .galleryCell a.image.museumImage img {
+  vertical-align: middle;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+article .gallery .galleryCell .label {
+  position: absolute;
+  height: 20px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+article .gallery .galleryCell .label div {
+  margin: -5px 0;
+}
+article .gallery .galleryCell .label .name {
+  font-style: italic;
+}
+article .gallery .noimage a.image {
+  overflow: hidden;
+  display: block;
+}
+article .gallery .noimage a.image img {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: block;
+  position: relative;
+  top: 20px;
+}
+.carousel {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: #c0c0c0;
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.carousel .leftArrow,
+.carousel .rightArrow {
+  display: block;
+  opacity: 0;
+  width: 33px;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  -webkit-transition: opacity 1s linear;
+  -moz-transition: opacity 1s linear;
+  -o-transition: opacity 1s linear;
+  transition: opacity 1s linear;
+}
+.carousel .leftArrow {
+  background-image: url('../images/carusel_button_left.png');
+  left: 0px;
+}
+.carousel .rightArrow {
+  background-image: url('../images/carusel_button_right.png');
+  right: 0px;
+}
+.carousel:hover .leftArrow,
+.carousel:hover .rightArrow {
+  display: block;
+  opacity: 1;
+  -webkit-transition: opacity 0s linear;
+  -moz-transition: opacity 0s linear;
+  -o-transition: opacity 0s linear;
+  transition: opacity 0s linear;
+}
+.carousel#frontCarousel,
+.carousel#museumCarousel {
+  height: 440px;
+}
+.carousel#artistCarousel {
+  height: 260px;
+}
+.carousel#artworksCarousel {
+  height: 260px;
+}
+.carousel > .carouselItem {
+  display: none;
+}
+.carousel .carouselHover {
+  display: block;
+  opacity: 0;
+  -webkit-transition: opacity 1s linear;
+  -moz-transition: opacity 1s linear;
+  -o-transition: opacity 1s linear;
+  transition: opacity 1s linear;
+  position: absolute;
+  height: 50px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: white;
+}
+.carousel .carouselHover h4 {
+  margin: 0px 20px;
+  line-height: 47px;
+  color: #666666;
+  font-size: 10px;
+  font-style: italic;
+}
+.carousel .carouselHover h4 .author {
+  font-style: normal;
+}
+.carousel .carouselHover h4 a {
+  color: #666666;
+}
+.carousel .carouselContainer {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  white-space: nowrap;
+}
+.carousel .carouselContainer .carouselItem {
+  display: inline-block;
+  position: relative;
+  border-left: 0px solid white;
+  border-right: 0px solid white;
+}
+.carousel .carouselContainer .carouselItem:hover .carouselHover {
+  display: block;
+  opacity: 1;
+  -webkit-transition: opacity 0s linear;
+  -moz-transition: opacity 0s linear;
+  -o-transition: opacity 0s linear;
+  transition: opacity 0s linear;
+}
+.bigImage .bigurl,
+.imageSelector .bigurl,
+.bigImage .smallurl,
+.imageSelector .smallurl,
+.bigImage .title,
+.imageSelector .title,
+.bigImage .subtitle,
+.imageSelector .subtitle,
+.bigImage .credits,
+.imageSelector .credits,
+.bigImage .trackcode,
+.imageSelector .trackcode {
+  display: none;
+}
+.imageData {
+  display: none;
+}
+.imageSelector .imageSelect {
+  display: inline;
+  cursor: pointer;
+}
+.imageSelector .imageSelect img {
+  width: 49px;
+  height: 49px;
+}
+.zoomScreen {
+  z-index: 10;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: black;
+}
+.zoomScreen .zoomImageContainer {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 65px;
+  width: 100%;
+}
+.zoomScreen .zoomImageContainer .zoomImage,
+.zoomScreen .zoomImageContainer .zoomImageFull {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.zoomScreen .zoomImageContainer .zoomImageFull {
+  display: none;
+}
+.zoomScreen .printImage {
+  display: none;
+}
+.zoomScreen .bottomToolBarContainer {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: 65px;
+  background-color: white;
+}
+.zoomScreen .bottomToolBarContainer .titleContainer .title {
+  font-size: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-right: 370px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.zoomScreen .bottomToolBarContainer .titleContainer .title .artwork {
+  font-style: italic;
+}
+.zoomScreen .bottomToolBarContainer .titleContainer .subTitle,
+.zoomScreen .bottomToolBarContainer .titleContainer .credits {
+  font-size: 9px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-right: 370px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.zoomScreen .bottomToolBarContainer .titleContainer.nocredits .title {
+  margin-top: 15px;
+}
+.zoomScreen .bottomToolBarContainer .titleContainer.nocredits .credits {
+  display: none;
+}
+.zoomScreen .bottomToolBarContainer .titleContainer.nosubtitle .title {
+  margin-top: 15px;
+}
+.zoomScreen .bottomToolBarContainer .titleContainer.nosubtitle .subtitle {
+  display: none;
+}
+.zoomScreen .bottomToolBarContainer .titleContainer.nosubtitle.nocredits .title {
+  margin-top: 23px;
+}
+.zoomScreen .bottomToolBarContainer .titleContainer.nosubtitle.nocredits .subtitle,
+.zoomScreen .bottomToolBarContainer .titleContainer.nosubtitle.nocredits .credits {
+  display: none;
+}
+.zoomScreen .bottomToolBar {
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  color: #541704;
+  font-size: 18px;
+  height: 55px;
+}
+.zoomScreen .bottomToolBar .menuBarItems {
+  display: block;
+  z-index: 11;
+}
+.zoomScreen .bottomToolBar .menuBarItems .menuBarItem {
+  display: inline-block;
+  cursor: pointer;
+  width: 43px;
+  height: 43px;
+  margin-left: 2px;
+  margin-top: 12px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  zoom: 1;
+  *display: inline;
+}
+.zoomScreen .bottomToolBar .menuBarItems .menuBarItem.closeButton {
+  background-image: url('../images/icon_zoommode_close_off.png');
+}
+.zoomScreen .bottomToolBar .menuBarItems .menuBarItem.closeButton:hover {
+  background-image: url('../images/icon_zoommode_close_on.png');
+}
+.zoomScreen .bottomToolBar .menuBarItems .menuBarItem.zoomInButton {
+  background-image: url('../images/icon_zoommode_zoomin_off.png');
+}
+.zoomScreen .bottomToolBar .menuBarItems .menuBarItem.zoomInButton:hover {
+  background-image: url('../images/icon_zoommode_zoomin_on.png');
+}
+.zoomScreen .bottomToolBar .menuBarItems .menuBarItem.zoomOutButton {
+  background-image: url('../images/icon_zoommode_zoomout_off.png');
+}
+.zoomScreen .bottomToolBar .menuBarItems .menuBarItem.zoomOutButton:hover {
+  background-image: url('../images/icon_zoommode_zoomout_on.png');
+}
+.zoomScreen .bottomToolBar .menuBarItems .menuBarItem.prevButton {
+  background-image: url('../images/icon_zoommode_left_off.png');
+}
+.zoomScreen .bottomToolBar .menuBarItems .menuBarItem.prevButton:hover {
+  background-image: url('../images/icon_zoommode_left_on.png');
+}
+.zoomScreen .bottomToolBar .menuBarItems .menuBarItem.nextButton {
+  background-image: url('../images/icon_zoommode_right_off.png');
+}
+.zoomScreen .bottomToolBar .menuBarItems .menuBarItem.nextButton:hover {
+  background-image: url('../images/icon_zoommode_right_on.png');
+}
+.zoomScreen .bottomToolBar .menuBarItems .menuBarItem.listButton {
+  background-image: url('../images/icon_listmode_names_off.png');
+}
+.zoomScreen .bottomToolBar .menuBarItems .menuBarItem.listButton:hover {
+  background-image: url('../images/icon_listmode_names_on.png');
+}
+.zoomScreen .bottomToolBar .menuBarItems .menuBarItem.gridButton {
+  background-image: url('../images/icon_listmode_images_off.png');
+}
+.zoomScreen .bottomToolBar .menuBarItems .menuBarItem.gridButton:hover {
+  background-image: url('../images/icon_listmode_images_on.png');
+}
+.zoomScreen .bottomToolBar .menuBarItems .menuBarItem.singleButton {
+  background-image: url('../images/icon_listmode_zoom_on.png');
+}
+.zoomScreen .bottomToolBar .menuBarItems .menuBarItem.prevButton,
+.zoomScreen .bottomToolBar .menuBarItems .menuBarItem.nextButton,
+.zoomScreen .bottomToolBar .menuBarItems .menuBarItem.listButton,
+.zoomScreen .bottomToolBar .menuBarItems .menuBarItem.gridButton,
+.zoomScreen .bottomToolBar .menuBarItems .menuBarItem.singleButton {
+  display: none;
+}
+.zoomScreen.galleryMode .bottomToolBar .menuBarItems .menuBarItem.prevButton,
+.zoomScreen.galleryMode .bottomToolBar .menuBarItems .menuBarItem.nextButton {
+  display: inline-block;
+}
+.zoomScreen.modeButtons .bottomToolBar .menuBarItems .menuBarItem.listButton,
+.zoomScreen.modeButtons .bottomToolBar .menuBarItems .menuBarItem.gridButton,
+.zoomScreen.modeButtons .bottomToolBar .menuBarItems .menuBarItem.singleButton {
+  display: inline-block;
+}
+div.jp-audio {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: block;
+  overflow: hidden;
+  max-width: 900px;
+  min-width: 150px;
+}
+div.jp-audio div.jp-interface {
+  text-align: center;
+  position: relative;
+}
+div.jp-audio div.jp-interface ul.jp-controls {
+  display: inline-block;
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+}
+div.jp-audio div.jp-interface ul.jp-controls li {
+  display: inline;
+  float: left;
+}
+div.jp-audio div.jp-interface ul.jp-controls li a {
+  padding-left: 60px;
+  font-size: 10px;
+  line-height: 40px;
+  display: block;
+  overflow: hidden;
+  height: 40px;
+  background-repeat: no-repeat;
+}
+div.jp-audio div.jp-interface ul.jp-controls li a.jp-play {
+  color: #666666;
+  background-image: url('../images/icon_audioguide_off.png');
+}
+div.jp-audio div.jp-interface ul.jp-controls li a.jp-pause,
+div.jp-audio div.jp-interface ul.jp-controls li a.jp-play:hover {
+  color: #444444;
+  background-image: url('../images/icon_audioguide_on.png');
+}
+div.jp-audio div.jp-interface div.jp-progress {
+  overflow: hidden;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0px;
+  height: 10px;
+  left: 0px;
+  right: 0px;
+}
+div.jp-audio div.jp-interface div.jp-progress div.jp-seek-bar {
+  background-color: #ddd;
+  width: 0px;
+  height: 3px;
+  border-top: 7px solid #fff;
+  cursor: pointer;
+}
+div.jp-audio div.jp-interface div.jp-progress div.jp-seek-bar div.jp-play-bar {
+  background-color: #333;
+  width: 0px;
+  height: 100%;
+}
+.sketchbooksList .sketchbookGroup h4 {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 2px;
+}
+.sketchbooksList .sketchbookGroup a {
+  display: inline-block;
+  border: 1px solid #999999;
+  background-color: #E9E9E9;
+  width: 23px;
+  height: 23px;
+  text-align: center;
+  line-height: 23px;
+  overflow: hidden;
+  margin-left: 0px;
+  margin-right: 3px;
+  border-radius: 50%;
+  font-size: 12px;
+}
+.recaptchatable a {
+  color: #444444 !important;
+}
